@@ -11,6 +11,7 @@ import javax.swing.*;
  *
  * @author markymark1346
  */
+<<<<<<< HEAD
 public class MainMenu extends JPanel implements ActionListener {
 
     private JFrame theFrame;
@@ -19,13 +20,24 @@ public class MainMenu extends JPanel implements ActionListener {
     
     public MainMenu(JFrame newPrototypeFrame){
         theFrame = newPrototypeFrame;
+=======
+public class MainMenu implements ActionListener {
+
+    private JButton startThreeCardGameButton;
+    private JButton startOneCardGameButton;
+    
+    public MainMenu(){
+>>>>>>> parent of 1e622bb... Merge origin/master
         startOneCardGameButton = new JButton("Start One Card Draw Game");
         startOneCardGameButton.addActionListener(this);
         startThreeCardGameButton = new JButton("Start Three Card Draw Game");
         startThreeCardGameButton.addActionListener(this);
+<<<<<<< HEAD
         this.add(startOneCardGameButton);
         this.add(startThreeCardGameButton);
         theFrame.add(this);
+=======
+>>>>>>> parent of 1e622bb... Merge origin/master
     }
 
     @Override

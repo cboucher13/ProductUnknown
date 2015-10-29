@@ -10,5 +10,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 /New Folder/Prototype/nbproject/private/
 /New Folder/Prototype/build/
+=======
+/New Folder/Prototype/nbproject/private/
+>>>>>>> parent of 1e622bb... Merge origin/master
