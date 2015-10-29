@@ -18,19 +18,14 @@ public class PrototypeFrame extends JFrame{
     
     public PrototypeFrame()
     {
-        createComponent();
-        createPanel();
+        //createComponent();
+        //createPanel();
         this.setSize(235, 505);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
+
     }
-    
-    public void createComponents()
-    {
-        createButtons();
-        createTextField();
-    }
-    
+
     private void createButtons()
     {
         startGame= new JButton("Start Game");
@@ -39,8 +34,8 @@ public class PrototypeFrame extends JFrame{
     
     public static void main (String[] args)
     {
-        @SuppressWarnings("unused")
         JFrame testFrame = new PrototypeFrame();
+        MainMenu mainMenu = new MainMenu(testFrame);
     }
 }
 
