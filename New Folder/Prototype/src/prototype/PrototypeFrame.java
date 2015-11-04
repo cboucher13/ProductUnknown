@@ -18,18 +18,8 @@ public class PrototypeFrame extends JFrame{
     
     public PrototypeFrame()
     {
-<<<<<<< HEAD
         //createComponent();
         //createPanel();
-        this.setSize(235, 505);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
-
-    }
-
-=======
-        createComponent();
-        createPanel();
         this.setSize(235, 505);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
@@ -38,10 +28,9 @@ public class PrototypeFrame extends JFrame{
     public void createComponents()
     {
         createButtons();
-        createTextField();
+        //createTextField();
     }
     
->>>>>>> parent of 1e622bb... Merge origin/master
     private void createButtons()
     {
         startGame= new JButton("Start Game");
@@ -50,13 +39,8 @@ public class PrototypeFrame extends JFrame{
     
     public static void main (String[] args)
     {
-<<<<<<< HEAD
-        JFrame testFrame = new PrototypeFrame();
-        MainMenu mainMenu = new MainMenu(testFrame);
-=======
         @SuppressWarnings("unused")
         JFrame testFrame = new PrototypeFrame();
->>>>>>> parent of 1e622bb... Merge origin/master
     }
 }
 
